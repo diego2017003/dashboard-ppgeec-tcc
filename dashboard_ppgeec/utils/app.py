@@ -1,7 +1,4 @@
-from cProfile import label
-from turtle import title
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 import streamlit as st

@@ -19,7 +19,7 @@ import utils.timeSeries_view as timeSeries_view
 def loading_data():
     os.environ[
         "GOOGLE_APPLICATION_CREDENTIALS"
-    ] = "dashboard_ppgeec/credentials/spheric-algebra-344319-2ca8235bd861.json"
+    ] = "dashboard_ppgeec/credentials/credentials.json"
     papers = bigquery_select.select_table_from_bigquery(
         project_name="spheric-algebra-344319",
         database_name="ppgeec_datalake",
